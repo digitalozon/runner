@@ -1,5 +1,5 @@
 [package]
-name = "Runner"
+name = "runner"
 version = "0.1.0"
 authors = ["Glugox <glugox@gmail.com>"]
 edition = "2018"
@@ -7,3 +7,12 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = "1.0.105"
+serde_derive = "1.0.105"
+serde_json = "1.0.50"
+actix-rt = "1.0.0"
+actix-web = "2.0.0"
+actix-http = "2.0.0-alpha.2"
+actix-threadpool = "0.3.1"
+ansi_term = "0.12.1"
+jsonpath_lib = "0.2.4"
